@@ -18,6 +18,8 @@
 		6833900B17D58D9800E97E6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6833900A17D58D9800E97E6D /* Default-568h@2x.png */; };
 		6833900E17D58D9800E97E6D /* GCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6833900D17D58D9800E97E6D /* GCViewController.m */; };
 		6833901117D58D9800E97E6D /* GCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6833900F17D58D9800E97E6D /* GCViewController.xib */; };
+		68A4B19E17D5A89D003910DE /* GCRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A4B19C17D5A89D003910DE /* GCRegisterViewController.m */; };
+		68A4B19F17D5A89D003910DE /* GCRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A4B19D17D5A89D003910DE /* GCRegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		6833900C17D58D9800E97E6D /* GCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCViewController.h; sourceTree = "<group>"; };
 		6833900D17D58D9800E97E6D /* GCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCViewController.m; sourceTree = "<group>"; };
 		6833901017D58D9800E97E6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GCViewController.xib; sourceTree = "<group>"; };
+		68A4B19B17D5A89D003910DE /* GCRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRegisterViewController.h; sourceTree = "<group>"; };
+		68A4B19C17D5A89D003910DE /* GCRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRegisterViewController.m; sourceTree = "<group>"; };
+		68A4B19D17D5A89D003910DE /* GCRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCRegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				6833900C17D58D9800E97E6D /* GCViewController.h */,
 				6833900D17D58D9800E97E6D /* GCViewController.m */,
 				6833900F17D58D9800E97E6D /* GCViewController.xib */,
+				68A4B19B17D5A89D003910DE /* GCRegisterViewController.h */,
+				68A4B19C17D5A89D003910DE /* GCRegisterViewController.m */,
+				68A4B19D17D5A89D003910DE /* GCRegisterViewController.xib */,
 				68338FFB17D58D9800E97E6D /* Supporting Files */,
 			);
 			path = GlobalCertificate;
@@ -164,6 +172,7 @@
 				6833900917D58D9800E97E6D /* Default@2x.png in Resources */,
 				6833900B17D58D9800E97E6D /* Default-568h@2x.png in Resources */,
 				6833901117D58D9800E97E6D /* GCViewController.xib in Resources */,
+				68A4B19F17D5A89D003910DE /* GCRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				6833900117D58D9800E97E6D /* main.m in Sources */,
 				6833900517D58D9800E97E6D /* GCAppDelegate.m in Sources */,
 				6833900E17D58D9800E97E6D /* GCViewController.m in Sources */,
+				68A4B19E17D5A89D003910DE /* GCRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				6833901617D58D9800E97E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
